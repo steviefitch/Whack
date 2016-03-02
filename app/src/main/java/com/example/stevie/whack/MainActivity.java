@@ -195,8 +195,6 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
         private void doDraw(final Canvas canvas) {
             if (run) {
                 canvas.save();
-                //Draw shit here
-                canvas.drawBitmap(cat_drawing, 400, 400, null);
             }
             canvas.restore();
         }
