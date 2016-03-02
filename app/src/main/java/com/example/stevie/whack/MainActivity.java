@@ -51,7 +51,6 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
             }
         });
     }
-
     @Override
     public void surfaceCreated(SurfaceHolder surfaceHolder) {
         thread = new GameLoopThread(_surfaceHolder, new Handler() {
