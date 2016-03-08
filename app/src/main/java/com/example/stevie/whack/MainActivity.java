@@ -149,7 +149,7 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
             Bitmap resizedBitmap = Bitmap.createBitmap(bm, 0, 0, width, height, matrix, false);
             return resizedBitmap;
         }
-
+//s
         public void run() {
             long ticksFPS = 1000 / FPS_GAME;
             long startTime;
