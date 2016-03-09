@@ -9,7 +9,7 @@
     android:paddingTop="0dp"
     tools:context="com.example.stevie.whack.MainActivity">
 
-//g
+
     <SurfaceView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
